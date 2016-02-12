@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    background-color:#f9f9f9 ;
+    width: 1366px;
+    height: 950px;
+}
+.page {
+    background-color: #ffffff;
+    width: 1060px;
+    height: 950px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.page_layout
+{
+    width: 966px;
+    height: 840px;
+    padding: 50px 40px 60px;
+}
+header
+{
+    height: 120px;
+}
+.menu
+{
+    height: 40px;
+    background: linear-gradient(to top, #484747 0%, #5e5e5e 36%, #28343b 100%);
+    margin-top:40px ;
+}
+.menu ul {
+    list-style: none;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    float: left;
+    padding: 0;
+    margin:8px 0 25px 24px
+}
+.menu a {
+    padding: 1px 22px;
+}
+.menu ul li {
+    float: left
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fefefe;
+    width: 120px;
+
+}
+.menu a:hover {
+    background: #363636;
+}
+
+
+.conteiner
+{
+    height: 640px;
+    width: 966px;
+    padding:40px 0;
+    margin: 0 auto;
+}
+.left_menu
+{
+    width: 240px;
+    height: 240px;
+    float: left;
+}
+.left_menu li
+{
+    list-style-type: none;
+}
+.left_menu a
+{
+    text-decoration: none;
+    display: block;
+    margin-bottom: -1px;
+    padding: 14px 24px;
+    color: #656363;
+    border: 2px solid #c8c8c8;
+}
+.left_menu a:hover {
+    background: #f9f9f9;
+}
+.content
+{
+    width: 678px;
+    height: 600px;
+    margin-top: 0;
+    float:right;
+}
+.content p
+{
+    font-size:14px;
+    margin-top: 40px;
+}
+footer
+{
+    height: 40px;
+    background-color:#e1e1e1;
+}
+.foot_menu
+{
+    height: 40px;
+    background:#e1e1e1;
+}
+.foot_menu ul {
+    list-style: none;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    float: left;
+    padding: 0;
+    margin:8px 0 25px 24px
+}
+.foot_menu a {
+    padding: 1px 22px;
+}
+.foot_menu ul li {
+    float: left;
+}
+.foot_menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #2c2c2c;
+    width: 120px;
+}
+.foot_menu a:hover {
+    border-bottom: 1px solid black;
+}
